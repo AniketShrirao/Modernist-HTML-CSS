@@ -245,14 +245,53 @@ nav li:hover {
   services styling starts here
 =================================*/
 
+.services {
+  background: #61080b;
+}
+
 .services .wrapper{
+  padding: 95px 0px 25px 0px;
   display: flex;
 }
 
+.services article {
+  padding: 25px 0px;
+  margin: 0px 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.service img {
+  margin-bottom: 20px;
+  height: 120px;
+  line-height: 1.5;
+  width: calc(98% - 140px);
+}
 
+.services h2 {
+  margin-bottom: 34px;
+  width: 55%;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 700;
+}
 
+.services p {
+  width: 88%;
+  color: #9b8998;
+}
 
+article.service-four {
+  background: #7ec48d;
+  color: #fff5cd;
+}
+
+article.service-four p{
+  color: #fff5cd;
+}
 
 /*=================================
   services styling ends here
