@@ -107,7 +107,13 @@ li {
   Header styling starts here
 =================================*/
 
+header {
+  display: flex;
+  
 
+
+
+}
 
 
 
