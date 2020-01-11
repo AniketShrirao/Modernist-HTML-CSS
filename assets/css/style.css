@@ -382,7 +382,9 @@ article.service-four p{
   footer styling starts here
 =================================*/ 
 
-
+footer {
+  background: #333333;
+}
 
 
 
