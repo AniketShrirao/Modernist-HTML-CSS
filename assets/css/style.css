@@ -250,7 +250,7 @@ nav li:hover {
 }
 
 .services .wrapper{
-  padding: 95px 0px 25px 0px;
+  padding: 95px 0px 38px 0px;
   display: flex;
 }
 
@@ -296,6 +296,31 @@ article.service-four p{
 /*=================================
   services styling ends here
 =================================*/
+
+/*=================================
+  work styling starts here
+=================================*/ 
+
+.work {
+  background: #61080b;
+  text-align: center;
+}
+
+.latest-works {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work figure {
+  padding: 0px 15px;
+}
+
+
+
+
+ /*=================================
+  work styling ends here
+=================================*/ 
+
 
 /*=================================
   main styling ends here
