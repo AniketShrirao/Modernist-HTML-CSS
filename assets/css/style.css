@@ -103,6 +103,11 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+/*=================================
+  banner styling starts here
+=================================*/
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -160,7 +165,21 @@ nav li:hover {
 
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
+
+/* slider styling starts here */
+
+.slider .slides:nth-child(-n+2) {
+  display: none;
+}
+
+
+
+/* slider styling ends here */
+
+/*=================================
+  banner styling ends here
+=================================*/
 
 /*=================================
   main styling starts here
