@@ -537,12 +537,15 @@ footer .wrapper {
   display: inline-block;
   color: #7cc38e;
 }
-.copyright p:first-of-type{
+
+.copyright p:first-of-type {
  float: left;
 }
-.copyright p:last-of-type{
+
+.copyright p:last-of-type {
   float: right;
  }
+
  /*=================================
   footer styling ends here
 =================================*/ 
