@@ -107,16 +107,56 @@ li {
   Header styling starts here
 =================================*/
 
-header {
-  display: flex;
-  
-
-
-
+.banner {
+  border-top: 6px solid #7ec48d;
+  background: #2b0305;
 }
 
+header {
+  padding: 34px 0px;
+  display: flex;
+}
 
+header h1 {
+  flex: 1;
+}
 
+nav {
+  width: 67%;
+}
+
+nav ul li{
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+nav li:nth-child(-n+1) {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: #7ec48d;
+}
+
+nav li:nth-child(-n+1):hover , .nav-active:hover {
+  color: #7ec48d;
+  background: #fff;
+}
+
+.nav-active {
+  color: #fff;
+}
+
+nav li:hover {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: #7ec48d;
+}
 
 /*=================================
   Header styling ends here
