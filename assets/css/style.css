@@ -392,6 +392,8 @@ footer .wrapper {
   flex-direction: column;
 }
 
+/* sitemap styling starts here */
+
 .sitemap {
   margin-top: 40px;
   padding-bottom: 60px;
@@ -407,6 +409,10 @@ footer .wrapper {
   font-weight: 500;
   color: #ebe5e5;
 }
+
+/* sitemap styling ends here */
+
+/* Blog styling starts here */
 
 .blog {
   width: 25%;
@@ -439,7 +445,7 @@ footer .wrapper {
 }
 
 .blog p {
-  width: 60%;
+  width: 85%;
   color: #819797;
 }
 
@@ -448,6 +454,10 @@ footer .wrapper {
   color: #7cc38e;
   text-transform: capitalize;
 }
+
+/* Blog styling ends here */
+
+/* quick links styling starts here */
 
 .quick-links {
   width: 25%;
@@ -476,6 +486,10 @@ footer .wrapper {
   font-size: 12px;
 }
 
+/* quick links styling ends here */
+
+/* Tweets styling starts here */
+
 .tweets {
   width: 25%;
 }
@@ -490,6 +504,10 @@ footer .wrapper {
 .tweets a {
   color: #7cc38e;
 }
+
+/* Tweets styling ends here */
+
+/* contact us styling starts here */
 
 .contactus {
   padding-left: 45px;
@@ -531,6 +549,10 @@ footer .wrapper {
   color: #61080b;
 }
 
+/* contact us styling ends here */
+
+/* copyright styling starts here */
+
 .copyright {
   width: 100%;
   padding: 25px 0px;
@@ -545,6 +567,8 @@ footer .wrapper {
 .copyright p:last-of-type {
   float: right;
  }
+
+ /* copyright styling starts here */
 
  /*=================================
   footer styling ends here
