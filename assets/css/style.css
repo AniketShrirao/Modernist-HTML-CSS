@@ -21,6 +21,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -30,7 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html { overflow-y: scroll;
+  overflow-x: hidden; 
+}
 
 /* Align radios and text inputs with their label */
 
@@ -169,10 +172,64 @@ nav li:hover {
 
 /* slider styling starts here */
 
-.slider .slides:nth-child(-n+2) {
+
+.slider div:nth-of-type(n+2) {
   display: none;
 }
 
+.slider {
+  padding-bottom: 70px;
+  width: 95%;
+  display: flex;
+}
+
+.slides {
+  display: flex;
+}
+
+.slide-head {
+  padding: 113px 80px 0px 90px;
+  width: 50%;
+}
+
+.slide-head h2 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.slide-head p {
+  color: #748b88;
+  margin-bottom: 20px;
+}
+
+.slide-head a {
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: #7ec48d;
+  color: #dae8b9;
+}
+
+.slides figure {
+  padding: 0px 97px 0px 0px;
+  width: 50%;
+}
+.slides img {
+  border:25px solid #666666;
+  border-radius: 100%;
+}
+
+.prev , .next {
+  position: absolute;
+  top: 362px;
+  font-size: 34px;
+  color: #fff;
+}
+
+.next {
+  right: 10%;
+}
 
 
 /* slider styling ends here */
