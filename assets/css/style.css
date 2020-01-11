@@ -241,12 +241,22 @@ nav li:hover {
   main styling starts here
 =================================*/
 
+/*=================================
+  services styling starts here
+=================================*/
+
+.services .wrapper{
+  display: flex;
+}
 
 
 
 
 
 
+/*=================================
+  services styling ends here
+=================================*/
 
 /*=================================
   main styling ends here
