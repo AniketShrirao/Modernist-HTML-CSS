@@ -306,21 +306,73 @@ article.service-four p{
   text-align: center;
 }
 
+.work .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.work h2 {
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-size: 26px;
+  align-self: center;
+  background: #303030;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.work h2::before {
+  content: "";
+  position: absolute;
+  width: 36%;
+  height: 5px;
+  left: 100px;
+  top: 1149px;
+  background: #303030;
+  display: inline-block;  
+}
+
+.work h2::after {
+  content: "";
+  position: absolute;
+  width: 36%;
+  height: 5px;
+  right: 100px;
+  top: 1149px;
+  background: #303030;
+  display: inline-block;  
+}
+
 .latest-works {
   display: flex;
   flex-wrap: wrap;
 }
 .work figure {
-  padding: 0px 15px;
+  width: 29%;
+  margin: 0px 15px 25px 15px;
+  border:  5px solid #fff;
 }
 
+.work img {
+  width: 100%;
+  height: 178px;
+}
 
+.work figcaption {
+  padding: 10px 0px;
+  text-transform: uppercase;
+  background: #1c1c1c;
+  color: #fff;
+}
 
+.work-six img {
+  height: 216px;
+}
 
  /*=================================
   work styling ends here
 =================================*/ 
-
 
 /*=================================
   main styling ends here
