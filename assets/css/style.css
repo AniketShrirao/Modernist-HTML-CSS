@@ -212,6 +212,11 @@ nav li:hover {
   color: #dae8b9;
 }
 
+.slide-head a:hover {
+  background: #dae8b9;
+  color: #7ec48d;
+}
+
 .slides figure {
   padding: 0px 97px 0px 0px;
   width: 50%;
@@ -230,6 +235,13 @@ nav li:hover {
 
 .next {
   right: 0%;
+}
+
+.prev:hover, .next:hover {
+  padding: 0px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.5);
 }
 
 /* slider styling ends here */
@@ -457,6 +469,10 @@ footer .wrapper {
   text-transform: capitalize;
 }
 
+.read:hover , .quick-links a:hover , .tweets a:hover , .form input , .form textarea  {
+  color: #ebe5e5;
+}
+
 /* Blog styling ends here */
 
 /* quick links styling starts here */
@@ -515,7 +531,7 @@ footer .wrapper {
   padding-left: 45px;
   width: 25%;
 }
-.form input {
+.form input , .form textarea {
   width: 100%;
   padding-left:15px;
   margin: 4px 0px;
@@ -524,18 +540,13 @@ footer .wrapper {
   border: none;
   height: 36px;
 }
+
 .form input[type="email"] {
   height: 46px;
 }
 
 .form textarea {
-  margin: 4px 0px;
-  padding-left:15px;
   padding-top: 15px;
-  width: 100%;
-  border-radius: 10px;
-  background: #272727;
-  border: none;
   height: 66px;
 }
 
@@ -551,6 +562,14 @@ footer .wrapper {
   color: #61080b;
 }
 
+.submit:hover {
+  background: #61080b;
+}
+.form a:hover {
+    color: #7ec48d ;
+}
+
+
 /* contact us styling ends here */
 
 /* copyright styling starts here */
@@ -559,7 +578,7 @@ footer .wrapper {
   width: 100%;
   padding: 25px 0px;
   display: inline-block;
-  color: #7cc38e;
+  color: #819797;
 }
 
 .copyright p:first-of-type {
