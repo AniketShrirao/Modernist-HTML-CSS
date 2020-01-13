@@ -181,6 +181,7 @@ nav li:hover {
   padding-bottom: 70px;
   width: 95%;
   display: flex;
+  position: relative;
 }
 
 .slides {
@@ -222,13 +223,13 @@ nav li:hover {
 
 .prev , .next {
   position: absolute;
-  top: 362px;
+  top: 240px;
   font-size: 34px;
   color: #fff;
 }
 
 .next {
-  right: 10%;
+  right: 0%;
 }
 
 /* slider styling ends here */
@@ -310,6 +311,7 @@ article.service-four p{
 .work .wrapper {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .work h2 {
@@ -326,10 +328,10 @@ article.service-four p{
 .work h2::before {
   content: "";
   position: absolute;
-  width: 36%;
+  width: 33%;
   height: 5px;
   left: 100px;
-  top: 1149px;
+  top: 20px;
   background: #303030;
   display: inline-block;  
 }
@@ -337,10 +339,10 @@ article.service-four p{
 .work h2::after {
   content: "";
   position: absolute;
-  width: 36%;
+  width: 33%;
   height: 5px;
   right: 100px;
-  top: 1149px;
+  top: 20px;
   background: #303030;
   display: inline-block;  
 }
