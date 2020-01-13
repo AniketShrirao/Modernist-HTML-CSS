@@ -116,6 +116,7 @@ li {
 =================================*/
 
 .banner {
+  padding-bottom: 10px;
   border-top: 6px solid #7ec48d;
   background: #2b0305;
 }
@@ -178,8 +179,8 @@ nav li:hover {
 }
 
 .slider {
-  padding-bottom: 70px;
-  width: 95%;
+  margin-bottom: 36px;
+  width: 96%;
   display: flex;
   position: relative;
 }
@@ -189,7 +190,7 @@ nav li:hover {
 }
 
 .slide-head {
-  padding: 113px 80px 0px 90px;
+  padding: 102px 57px 0px 100px;
   width: 50%;
 }
 
@@ -201,8 +202,10 @@ nav li:hover {
 }
 
 .slide-head p {
+  width: 90%;
   color: #748b88;
   margin-bottom: 20px;
+  font-size: 16px;
 }
 
 .slide-head a {
@@ -218,8 +221,8 @@ nav li:hover {
 }
 
 .slides figure {
-  padding: 0px 97px 0px 0px;
-  width: 50%;
+  padding: 0px 110px 0px 0px;
+  width: 55%;
 }
 .slides img {
   border:25px solid #666666;
@@ -234,7 +237,7 @@ nav li:hover {
 }
 
 .next {
-  right: 0%;
+  right: -2%;
 }
 
 .prev:hover, .next:hover {
@@ -269,7 +272,7 @@ nav li:hover {
 
 .services article {
   padding: 25px 0px;
-  margin: 0px 10px;
+  margin: 0px 12px;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -278,18 +281,19 @@ nav li:hover {
 }
 
 .service img {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   height: 120px;
   line-height: 1.5;
   width: calc(98% - 140px);
 }
 
 .services h2 {
-  margin-bottom: 34px;
-  width: 55%;
+  margin-bottom: 26px;
+  width: 65%;
   text-transform: uppercase;
-  font-size: 34px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.1;
 }
 
 .services p {
@@ -340,10 +344,10 @@ article.service-four p{
 .work h2::before {
   content: "";
   position: absolute;
-  width: 33%;
+  width: 40%;
   height: 5px;
-  left: 100px;
-  top: 20px;
+  left: 18px;
+  top: 26px;
   background: #303030;
   display: inline-block;  
 }
@@ -351,10 +355,10 @@ article.service-four p{
 .work h2::after {
   content: "";
   position: absolute;
-  width: 33%;
+  width: 40%;
   height: 5px;
-  right: 100px;
-  top: 20px;
+  right: 18px;
+  top: 26px;
   background: #303030;
   display: inline-block;  
 }
@@ -366,7 +370,8 @@ article.service-four p{
 .work figure {
   width: 29%;
   margin: 0px 15px 25px 15px;
-  border:  5px solid #fff;
+  border: 5px solid #fff;
+  flex-grow: 2;
 }
 
 .work img {
@@ -399,6 +404,7 @@ article.service-four p{
 
 footer {
   background: #333333;
+  position: relative;
 }
 
 footer .wrapper {
@@ -412,7 +418,6 @@ footer .wrapper {
   margin-top: 40px;
   padding-bottom: 60px;
   width: 100%;
-  border-bottom: 1px solid;
   display: flex;
 }
 
@@ -422,6 +427,17 @@ footer .wrapper {
   font-size: 18px;
   font-weight: 500;
   color: #ebe5e5;
+}
+
+.sitemap::after {
+  content: '';
+  width: 100%;
+  height: 1.5px;
+  display: inline-block;
+  background: black;
+  position: absolute;
+  left: 0;
+  top: 87%;
 }
 
 /* sitemap styling ends here */
@@ -478,17 +494,25 @@ footer .wrapper {
 /* quick links styling starts here */
 
 .quick-links {
-  width: 25%;
+  width: 28%;
+  padding-left: 19px;
 }
+
+.quick-links h3 {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
 .quick-links ul{
-  width: 85%;
+  width: 89%;
   display: flex;
   flex-direction: column;
 }
 
 .quick-links li {
   margin-top: 7px;
-  padding: 5px 0px;
+  padding: 6.5px 0px;
   border-bottom:1px solid #7ec48d ;
 }
 
@@ -510,6 +534,8 @@ footer .wrapper {
 
 .tweets {
   width: 25%;
+  padding-left: 20px;
+  padding-top: 7px;  
 }
 
 .tweets p:first-of-type {
@@ -528,11 +554,11 @@ footer .wrapper {
 /* contact us styling starts here */
 
 .contactus {
-  padding-left: 45px;
   width: 25%;
+  padding-left: 45px;
 }
 .form input , .form textarea {
-  width: 100%;
+  width: 95%;
   padding-left:15px;
   margin: 4px 0px;
   border-radius: 10px;
@@ -547,23 +573,25 @@ footer .wrapper {
 
 .form textarea {
   padding-top: 15px;
-  height: 66px;
+  height: 54px;
+  resize: none;
 }
 
 .submit {
-  padding: 7px 20px;
-  margin:10px 0px 0px 0px;
-  font-size: 20px;
+  padding: 13px 24px;
+  margin:7px 0px 0px 0px;
   text-transform: uppercase;
   border-radius: 10px;
   background: #7ec48d;
 }
 .form a {
-  color: #61080b;
+  font-size: 16px;
+  font-weight: 900;
+  color: #36474f;
 }
 
 .submit:hover {
-  background: #61080b;
+  background: #36474f;
 }
 .form a:hover {
     color: #7ec48d ;
@@ -582,10 +610,12 @@ footer .wrapper {
 }
 
 .copyright p:first-of-type {
+  padding-left: 10px;
  float: left;
 }
 
 .copyright p:last-of-type {
+  padding-right: 10px;
   float: right;
  }
 
